@@ -3,7 +3,7 @@ import subprocess
 try:
     from tabulate import tabulate
 except ImportError:
-    subprocess.run(["pip", "install", "tabulate"], check=True, text=True)
+    subprocess.run(["pip3", "install", "tabulate"], check=True, text=True)
     from tabulate import tabulate
 
 from fractions import Fraction
